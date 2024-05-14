@@ -31,10 +31,6 @@
     <!-- Contact -->
     <?php include_once("contact.html"); ?>
 
-    <!-- Images -->
-    <img src="/StylingAssets/assets/brand/bootstrap-logo-white.svg" alt="Bootstrap Logo White">
-    <img src="/StylingAssets/assets/brand/bootstrap-logo.svg" alt="Bootstrap Logo">
-
     <!-- JavaScript Files -->
     <script src="/StylingAssets/assets/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/StylingAssets/js/color-modes.js"></script>
