@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Web Application</title>
+    <title>Helfrich Trucking & Excavating</title>
 
     <!-- CSS Files -->
     <link rel="stylesheet" href="/client/StylingAssets/assets/dist/css/bootstrap.min.css">
@@ -20,16 +20,16 @@
 </head>
 <body>
     <!-- Navbar -->
-    <?php include_once("client/pages/fixedNavbar.html"); ?>
+    <?php include_once("client/fixedNavbar.html"); ?>
 
     <!-- Landing Page -->
-    <?php include_once("client/pages/landingPage.html"); ?>
+    <?php include_once("client/landingPage.html"); ?>
 
     <!-- About Us -->
-    <?php include_once("client/pages/aboutUs.html"); ?>
+    <?php include_once("client/aboutUs.html"); ?>
 
     <!-- Contact -->
-    <?php include_once("client/pages/contact.html"); ?>
+    <?php include_once("client/contact.html"); ?>
 
     <!-- Images -->
     <img src="/client/StylingAssets/assets/brand/bootstrap-logo-white.svg" alt="Bootstrap Logo White">
