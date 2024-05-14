@@ -36,8 +36,8 @@
     <img src="/client/StylingAssets/assets/brand/bootstrap-logo.svg" alt="Bootstrap Logo">
 
     <!-- JavaScript Files -->
-    <script src="/client/StylingAssets/assets/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="/client/StylingAssets/js/color-modes.js"></script>
+    <script src="/StylingAssets/assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/StylingAssets/js/color-modes.js"></script>
     <script src="/client/scripts/landingpage.js"></script>
 </body>
 </html>
