@@ -2,4 +2,17 @@
 <?php include_once("contact.html");?>
 <?php include_once("fixedNavbar.html");?>
 <?php include_once("landingPage.html");?>
-
+<?php include_once("bootstrap-logo-white.svg");?>
+<?php include_once("bootstrap-logo.svg");?>
+<?php include_once("bootstrap.bundle.min.js");?>
+<?php include_once("bootstrap.bundle.min.js.map");?>
+<?php include_once("bootstrap.min.css");?>
+<?php include_once("bootstrap.min.css.map");?>
+<?php include_once("bootstrap.rtl.min.css");?>
+<?php include_once("bootstrap.rtl.min.css.map");?>
+<?php include_once("color-modes.js");?>
+<?php include_once("Consolas.ttf");?>
+<?php include_once("contact.css");?>
+<?php include_once("contact.js");?>
+<?php include_once("LandingPage.css");?>
+<?php include_once("landingpage.js");?>
