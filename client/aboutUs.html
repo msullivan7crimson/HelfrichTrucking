@@ -4,24 +4,109 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>About Us - Helfrich Trucking</title>
-    <!-- <link rel="stylesheet" href="https://use.typekit.net/cly1pkr.css"> -->
     <link href="StylingAssets/assets/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="styles/LandingPage.css" rel="stylesheet">
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400&display=swap" rel="stylesheet"> -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     
     <script src="StylingAssets/assets/js/color-modes.js"></script>
+
+    <style>
+      .image-row {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          overflow-x: auto;
+      }
+  
+      .image-row figure {
+          margin: 10px;
+      }
+
+      .logo {
+          position: fixed;
+          top: 10px;
+          left: 10px;
+          z-index: 1000;
+          width: 200px;
+          height: 190px;
+      }
+
+      @media (max-width: 768px) {
+          .logo {
+              width: 150px;
+              height: 140px;
+          }
+      }
+
+      @media (max-width: 576px) {
+          .logo {
+              width: 100px;
+              height: 90px;
+          }
+        }
+  </style>
 </head>
 <body>
     <header>
-        <!-- Placeholder for navigation bar -->
         <div id="fixed-navbar-ttf"></div>
-        <img src="https://cdn1.sportngin.com/attachments/photo/5507-194645597/DDC6A8062E664F339BAE84E5B2D7F957_large.png" alt="Logo" width="200" height="190"
-        class="d-inline-block rounded-circle" style="position: fixed; top: 10px; left: 10px; z-index: 1000;">
+        <img src="https://cdn1.sportngin.com/attachments/photo/5507-194645597/DDC6A8062E664F339BAE84E5B2D7F957_large.png" alt="Logo"
+        class="d-inline-block rounded-circle logo">
     </header>
+    <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+      </div>
+
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/IMG-3145.jpg" class="d-block w-100" alt="...">
+          <div class="container">
+            <div class="carousel-caption mb-1 px-2 py-0 rounded text-start"
+              style="background-color: rgb(var(--bs-tertiary-color-rgb)); opacity: 0.9;">
+              <h1 style="text-align: center;">Gallery</h1>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="images/IMG-4499.jpg" class="d-block w-100" class="container">
+        </div>
+
+        <div class="carousel-item">
+          <img src="images/IMG-1979.jpg" class="d-block w-100" class="container">
+      </div>
+      <div class="carousel-item">
+        <img src="images/IMG-8503.jpg" class="d-block w-100" class="container">
+      </div>
+      <div class="carousel-item">
+        <img src="images/IMG-8638 (1).jpg" class="d-block w-100" class="container">
+      </div>
+      <div class="carousel-item">
+        <img src="images/IMG-0164.jpg" class="d-block w-100" class="container">
+      </div>
+    </div>
+  </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+    </div>
 
     <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
         <symbol id="check2" viewBox="0 0 16 16">
@@ -99,7 +184,8 @@
               <div class="col-md-7">
                 <h2 class="featurette-heading fw-normal lh-1" style="font-size: 2.5rem; color: grey; text-shadow: -1px -1px 0 red, 1px -1px 0 black, -1px 1px 0 red, 1px 1px 0 #000;">Our Services
                   <span class="text-body-secondary"></span></h2>
-                <p class="lead">At Helfrich Trucking & Excavating, we pride ourselves on being a leading provider of specialized transport solutions for a diverse range of industries including Construction, Railroad, Agriculture, Wind Energy, and Crane operations.</p>
+                <p class="lead">
+                 Helfrich Trucking offers unparalleled reliability and expertise in the industry. We provide a range of services including crane load assistance, trailer storage, and rental. Whether you need local, regional, or nationwide transportation across the lower 48 states, we have the capabilities to meet your requirements.</p>
               </div>
               <div class="col-md-5">
                 <img
@@ -112,9 +198,9 @@
   
             <div class="row featurette align-items-center">
               <div class="col-md-7 order-md-2">
-                <h2 class="featurette-heading fw-normal lh-1" style="font-size: 2.5rem; color: grey; text-shadow: -1px -1px 0 red, 1px -1px 0 black, -1px 1px 0 red, 1px 1px 0 #000;">Primary Service Areas/Fleet<span
+                <h2 class="featurette-heading fw-normal lh-1" style="font-size: 2.5rem; color: grey; text-shadow: -1px -1px 0 red, 1px -1px 0 black, -1px 1px 0 red, 1px 1px 0 #000;">Primary Service Areas<span
                     class="text-body-secondary"></span></h2>
-                <p class="lead">Based in Northern Illinois, our services extend throughout the Greater Rockford Area and the Midwest, covering all lower 48 states. Our expertise lies in handling oversized, overweight, and specialized cargo with precision and safety. With a robust fleet that includes flatbeds, stepdecks, flip tail machinery trailers, beam insert lowboys, and configurations up to 70-ton capacity on 8-12 axles lowboys, we are equipped to meet the most demanding transportation needs.</p>
+                <p class="lead">With a strong presence in Illinois, Wisconsin, and Iowa, we are located just an hour from Lasalle-Peru, Chicago, Madison, and Davenport, and only 30 minutes from Rockford. Our team is committed to delivering exceptional service for all your transportation needs.</p>
               </div>
               
               <div class="col-md-5 order-md-1">
@@ -127,9 +213,9 @@
   
             <div class="row featurette align-items-center">
               <div class="col-md-7">
-                <h2 class="featurette-heading fw-normal lh-1" style="font-size: 2.5rem; color: grey; text-shadow: -1px -1px 0 red, 1px -1px 0 black, -1px 1px 0 red, 1px 1px 0 #000;">Continued Excellence<span
+                <h2 class="featurette-heading fw-normal lh-1" style="font-size: 2.5rem; color: grey; text-shadow: -1px -1px 0 red, 1px -1px 0 black, -1px 1px 0 red, 1px 1px 0 #000;">Our Fleet<span
                     class="text-body-secondary"></span></h2>
-                <p class="lead">Whether hauling a 826G compactor or navigating complex logistics scenarios, Helfrich Trucking & Excavating is committed to excellence. Our hands-on approach and commitment to quality have earned us a reputation as the go-to specialist for heavy hauling. Each project is executed with meticulous attention to detail, ensuring that we not only meet but exceed the expectations of our clients.</p>
+                <p class="lead">Our fleet is equipped with various types of trailers to accommodate diverse hauling needs. From hotshot and stepdeck trailers to flatbed, winch machinery, agricultural slideout trailers, and 8-12 axle beam and low boy trailers, we ensure that your freight is transported safely and efficiently. We pride ourselves on our ability to handle complex and challenging hauls, providing solutions that go beyond standard transportation services.</p>
               </div>
               <div class="col-md-5">
                 <img src="https://media.licdn.com/dms/image/D5622AQERAoobh9vdIA/feedshare-shrink_800/0/1687918783186?e=1718236800&v=beta&t=ggECyhWUfcDJCV4Rjohj8uSqEx4NqUVVhLLPuH4szFQ" class="img-fluid mx-auto rounded rounded"
@@ -138,7 +224,19 @@
             </div>
   
             <hr class="featurette-divider">
-          </div>
+        </div>
+
+        <div class="container marketing">
+          <h1 style="font-size: 2.5rem; color: grey; text-shadow: -1px -1px 0 red, 1px -1px 0 black, -1px 1px 0 red, 1px 1px 0 #000;">Our Certifications</h1>
+          <p class="lead">
+            Certified Expertise: At Helfrich Trucking, safety and professionalism are paramount. Our certifications include Local 150 and BNSF E-Rail certification, ensuring that our team meets the highest industry standards. This commitment to certification guarantees that we are equipped to handle every project with exceptional safety, precision, and expertise.</p>
+    
+          <div class="image-row">
+            <figure><img src="https://odonnellcrane.com/wp-content/uploads/elementor/thumbs/Local150-qfdlexplcexhpbyh0e931bmm2i3xnezrodhm2oz474.webp" alt="Local150" /></figure>
+            <figure><img src="https://odonnellcrane.com/wp-content/uploads/elementor/thumbs/ERailSafe-qfdlewrr5kw7dpzu5vuggtv5h48kfpw1c8u4lf0idc.png" alt="ERailSafe" /></figure>
+        </div>
+        <hr class="featurette-divider">
+          
           <footer class="container">
             <p class="float-end">Sight Designed and Maintained by Palinoia Technology - <a href="#fixed-navbar-ttf">Back to top</a></p>
             <p> ©2024 Copyright – All Rights Reserved Helfrich Trucking &middot;</p>
