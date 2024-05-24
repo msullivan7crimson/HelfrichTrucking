@@ -16,7 +16,7 @@ function sendEmail() {
       message: document.getElementById('message').value
   };
 
-  emailjs.send("service_jij563c", "template_366o5ya", templateParams)
+  emailjs.send("service_fvzfl2u", "template_kh27aur", templateParams)
   .then(() => {
       alert('Message successfully sent! We will get in touch with you as soon as possible.');
 
