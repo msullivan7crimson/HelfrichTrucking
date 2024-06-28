@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Checkout · Bootstrap v5.3</title>
+    <link rel="stylesheet" href="https://use.typekit.net/cly1pkr.css">
+    <link href="/client/StylingAssets/assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/client/LoginPages/styles/signIn.css" rel="stylesheet">
+</head>
+<body onload = "handleOnLoad(); handleOnLoadOrders()"class="d-flex align-items-center py-4 bg-body-tertiary">
+    <main class="form-checkout w-100 m-auto">
+        <form>
+            <h1 class="h3 mb-3 fw-normal"><b>Checkout</b></h1>
+            <h1 class="h3 mb-3 fw-normal" id="customer-information"><b>customer</b></h1>
+            <!-- Assume autofill via JavaScript or backend template rendering -->
+            <div class="form-floating mb-2">
+                <input type="text" class="form-control" id="shippingAddress" placeholder="1234 Main St">
+                <label for="shippingAddress">Shipping Address</label>
+            </div>
+            <div class="form-floating mb-2">
+                <input type="text" class="form-control" id="paymentDetails" placeholder="Card Details">
+                <label for="paymentDetails">Payment Details</label>
+            </div>
+            <button class="w-100 btn btn-lg btn-primary" onclick="event.preventDefault();createNewOrder()" type="submit">Place Order</button>
+        </form>
+    </main>
+    <script src="/client/StylingAssets/assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/client/ProductPages/scripts/addOrder.js"></script>
+    <script src="/client/LoginPages/scripts/signIn.js"></script>
+</body>
+</html>
